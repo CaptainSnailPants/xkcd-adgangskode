@@ -1,4 +1,4 @@
-# XKCD-adgangskode
+# XKCD-Adgangskoder
 
 En lille webside, der laver adgangskoder efter [XKCD-metoden](https://xkcd.com/936/): tilfældige danske ord sat sammen med et specialtegn og to tal, fx `Strand!Rabat!Krabbe!Passiv28`. Med en slider kan man sætte en maks. længde (10–41 tegn).
 
