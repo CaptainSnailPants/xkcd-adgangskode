@@ -19,5 +19,7 @@ button:hover { background: var(--accent); color: var(--bg); }
 @media (max-width: 480px) {
   main { padding-top: 24px; }
   li { flex-direction: column; align-items: stretch; }
+  /* Plads til to linjer, så alle bokse er lige høje uanset kodens længde */
+  code { min-height: 2.8em; }
   button { width: 100%; }
 }
