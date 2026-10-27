@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XKCD-passwords</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>XKCD-passwords</h1>
+    <p class="intro">Adgangskoder efter <a href="https://xkcd.com/936/" target="_blank" rel="noopener">XKCD-metoden</a>: tilfældige danske ord sat sammen med tegn og tal. Lange nok til at være svære at gætte, lette nok at huske.</p>
+    <label class="slider">
+      <span>Maks. længde: <output id="maxlen-value" for="maxlen">ingen grænse</output></span>
+      <input id="maxlen" type="range" min="10" max="41" value="41">
+    </label>
+    <ul id="list"></ul>
+    <button id="regen" type="button">Lav fem nye</button>
+  </main>
+  <script src="words.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
